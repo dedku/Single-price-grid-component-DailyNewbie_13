@@ -192,6 +192,9 @@ section {
         'c';
     max-width: 36.5rem;
     transition: all .3s ease 0s;
+    -webkit-box-shadow: 1px 10px 37px -26px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 1px 10px 37px -26px rgba(66, 68, 90, 1);
+    box-shadow: 1px 10px 37px -26px rgba(66, 68, 90, 1);
 }
 
 .card-community,
@@ -255,11 +258,24 @@ section {
             "b b c c";
     }
 
+    .card-community {
+        margin-top: 0rem;
+    }
+
     .card-subscription {
         justify-content: space-around;
     }
 
     .card-subscription h3 {
         margin-bottom: -2rem;
+    }
+
+    .border-radius-right {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .border-radius-left {
+        border-bottom-left-radius: 5px;
     }
 }
